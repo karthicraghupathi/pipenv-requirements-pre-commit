@@ -1,0 +1,6 @@
+-   id: pipenv-requirements
+    name: pipenv-requirements
+    description: Run `pipenv requirements` to freeze current dependency versions.
+    entry: ./requirements.sh
+    language: script
+    files: ^Pipfile(\.lock)?$
